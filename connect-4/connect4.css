@@ -1,0 +1,33 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#board{
+    height: 540px;
+    width: 630px;
+
+    background-color: rgb(178, 178, 204);
+    border:6px solid rgb(34, 34, 37);
+    border-radius: 10%;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+.tile{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+.red-piece{
+    background-color: rgb(217, 80, 125);
+}
+.yellow-piece{
+    background-color: rgb(44, 39, 39);
+}
